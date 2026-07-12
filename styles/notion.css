@@ -208,8 +208,26 @@
   .notion-page-cover-wrapper img {
     border-radius: 0;
   }
+  
 }
+@media (max-width: 600px) {
+  .notion-page-cover-wrapper {
+    height: 20vw;
+  }
+  .notion-page-cover-wrapper img {
+    object-fit: contain !important;
+  }
 
+@media (max-width: 600px) {
+  .notion-page {
+    font-size: 15px;
+  }
+  .notion-h1 {
+    font-size: 1.6em;
+  }
+}
+  
+}
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
   justify-content: center;
   padding: 2em;
