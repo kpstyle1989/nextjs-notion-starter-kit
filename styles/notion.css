@@ -242,6 +242,18 @@
     word-break: keep-all;
   }
 }
+
+@media (max-width: 600px) {
+  .notion-callout-text .notion-h1 {
+    font-size: 1.15em !important;
+    line-height: 1.4 !important;
+    font-weight: 700;
+    word-break: keep-all;
+  }
+  .notion-callout {
+    padding: 0.6em 0.8em;
+  }
+}
   
 }
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
