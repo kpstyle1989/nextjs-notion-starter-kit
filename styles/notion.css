@@ -226,6 +226,22 @@
     font-size: 1.6em;
   }
 }
+
+@media (max-width: 600px) {
+  .notion-callout {
+    padding: 0.6em;
+  }
+  .notion-callout .notion-h1,
+  .notion-callout .notion-h2,
+  .notion-callout .notion-h3,
+  .notion-h1,
+  .notion-h2,
+  .notion-h3 {
+    font-size: 1.3em !important;
+    line-height: 1.4 !important;
+    word-break: keep-all;
+  }
+}
   
 }
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
